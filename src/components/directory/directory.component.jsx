@@ -1,11 +1,12 @@
 import CategoryItem from "../category-item/category-item.component";
+
 import "./directory.styles.scss";
 
-const Directory = ({ propsKategoriler }) => {
+const Directory = ({ categories }) => {
   return (
     <div className="directory-container">
-      {propsKategoriler.map((kategori) => (
-        <CategoryItem key={kategori.id} propsKategori={kategori} />
+      {categories.map((category) => (
+        <CategoryItem key={category.id} category={category} />
       ))}
     </div>
   );
