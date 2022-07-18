@@ -1,1 +1,1 @@
-# https://clothing-esadsiz.netlify.app
+# https://react-clothing-esadsiz.netlify.app
